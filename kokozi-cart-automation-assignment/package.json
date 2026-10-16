@@ -1,0 +1,14 @@
+{
+  "name": "kokozi-cart-automation-assignment",
+  "version": "1.0.0",
+  "private": true,
+  "description": "코코지몰 회원 상품 담기와 회원별 장바구니 격리를 검증하는 자동화 과제",
+  "main": "src/cli.js",
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "node --test src/**/*.unit.test.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
